@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NopCommerce">
+    <test verbose="2" preserve-order="true" name="C:/Users/HP/AutomationTesting/hybrid-framework-nopcommerce/testcases">
+        <classes>
+            <class name="com_nopcommerce_account.Account_01_Register">
+                <methods>
+                    <include name="Register_01_Empty_Data"/>
+                    <include name="Register_02_Invalid_Email"/>
+                    <include name="Register_03_Invalid_Password"/>
+                    <include name="Register_04_Invalid_Confirm_Password"/>
+                    <include name="Register_05_Success"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
